@@ -1,0 +1,15 @@
+h3{
+    font-size: 35px;
+    color:indianred;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:bolder;
+}
+canvas{
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 38px skyblue;}
+    to{box-shadow: 1px 1px 38px slateblue;}
+}
